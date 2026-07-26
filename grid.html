@@ -1,0 +1,66 @@
+<style>
+    .container {
+        color: white;
+    }
+
+    .header {
+        background-color: aquamarine;
+        color: white;
+        height: 50px;
+        margin: 10px;
+    }
+
+    .middle {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .aside {
+        background-color: green;
+        height: 300px;
+        margin: 10px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .articel{
+        background-color: orange;
+          margin: 10px;
+          display: grid;
+    }
+
+    .main-2__box{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .image{
+        background-color: yellow;
+        color: black;
+        padding: 10px;
+        margin: 2px;
+    }
+
+    .footer {
+        background-color: aquamarine;
+        color: white;
+        height: 50px;
+        margin: 10px;
+    }
+</style>
+
+<div class="container">
+    <div class="header">Header</div>
+    <div class="middle">
+        <div class="aside">Aside</div>
+        <div class="articel">article
+            <div main-2__box>
+            <div class="image">Image</div>
+            <div class="image">Image</div>
+            <div class="image">Image</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">Footer</div>
+</div>
