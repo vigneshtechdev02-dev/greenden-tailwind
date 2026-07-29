@@ -1,4 +1,4 @@
-# Greenden - Plant Store Website
+# Avenza_Greenden - Plant Store Website
 
 **Greenden** is a modern, responsive plant store website built using **HTML5** and **Tailwind CSS**. This frontend project focuses on creating a clean, user-friendly shopping experience with a fully responsive design that works seamlessly across desktops, tablets, and mobile devices.
 
